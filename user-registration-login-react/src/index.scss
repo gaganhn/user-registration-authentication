@@ -1,0 +1,15 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+@media (min-width: 1200px) {
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1400px;
+  }
+}
+
+body {
+  background-color: #e3e5e6;
+}
