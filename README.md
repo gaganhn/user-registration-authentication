@@ -1,10 +1,30 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# User Registration and Login
+- Create a small Single Page Application for User Registration and Login;
+  - It can have following modules:
+  - Login Component (Username, Password)
+  - Sign-up Component (Username, Password, Email, First Name, Last Name, Gender, Country)
+    - Country Field - Dropdown
+    - Gender Field- Radio
+    - Rest all fields Input Controls
+  - Dashboard (for Logged In User)
+- Create Restful APIs using any backend  for the following activities:
+  - GET : Login (Username, Password)
+  - POST: Sign Up (Username, Password, Email, First Name, Last Name, Gender, Country)
+  - Data for the API can be mocked/ some online data persistence mechanism can be used)
 
-## Available Scripts
+## Available Scripts for backend node.js in user-registration-login-nodejs folder
 
-In the project directory, you can run:
+In the project directory(user-registration-login-nodejs), you can run:
 
-### `yarn start`
+### `npm start`
+
+node app runs
+
+## Available Scripts for frontend react.js in user-registration-login-react folder
+
+In the project directory(user-registration-login-react), you can run:
+
+### `npm start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -12,12 +32,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `yarn test`
+### `npm test`
 
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+### `npm build`
 
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -27,7 +47,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+### `npm eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
