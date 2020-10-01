@@ -12,6 +12,11 @@
   - POST: Sign Up (Username, Password, Email, First Name, Last Name, Gender, Country)
   - Data for the API can be mocked/ some online data persistence mechanism can be used)
 
+## DEMO URL
+
+Click [here](https://user-registration-login-react.herokuapp.com/) to view it in the browser.
+
+
 ## Available Scripts for backend node.js in user-registration-login-nodejs folder
 
 In the project directory(user-registration-login-nodejs), you can run:
